@@ -1,0 +1,11 @@
+name: 'BC Testimonial'
+description: 'Provides BC Testimonial content type and related configuration. Use <em>BC Testimonial</em>'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - node
+  - path
+  - rdf
+  - text
+  - user

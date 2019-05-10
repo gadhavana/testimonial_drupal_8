@@ -1,0 +1,11 @@
+<?php
+
+// hook_preprocess_html to attach library.
+function bc_testimonial_preprocess_html(&$variables) {
+  //Add a JS library
+  $variables['#attached']['library'][] = 'bc_testimonial/bc_testimonial-js';
+  $variables['#attached']['library'][] = 'bc_testimonial/bc_testimonial_1-js';
+  $variables['#attached']['library'][] = 'bc_testimonial/bc_testimonial-css';
+}
+
+?>
